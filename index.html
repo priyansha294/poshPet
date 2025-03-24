@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Posh Pet Care</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <nav class="sticky-nav">
+      <div class="logo">Posh Pet Care</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-overlay">
+      <h1>Welcome to Posh Pet Care</h1>
+      <p>Where every pet is pampered</p>
+      <a href="#contact" class="btn-hero">Book an Appointment</a>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>
+      Established in 2010, Posh Pet Care is a pioneer in luxury pet services. 
+      Our mission is to provide world-class grooming, training, and boarding for your furry companions.
+    </p>
+    <div class="team-container">
+      <!-- Team Member 1 -->
+      <div class="team-card">
+        <img src="images/team-member-1.png" alt="Team Member 1" />
+        <div class="team-info">
+          <h3>Team Member 1</h3>
+          <p>Expert groomer with 10 years of experience.</p>
+        </div>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="team-card">
+        <img src="images/team-member-2.png" alt="Team Member 2" />
+        <div class="team-info">
+          <h3>Team Member 2</h3>
+          <p>Certified trainer known for positive reinforcement methods.</p>
+        </div>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="team-card">
+        <img src="images/team-member-3.png" alt="Team Member 3" />
+        <div class="team-info">
+          <h3>Team Member 3</h3>
+          <p>Our passionate caretaker who ensures every pet feels at home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <div class="tabs">
+      <!-- Tab 1: Grooming -->
+      <input type="radio" name="tabs" id="tab1" checked />
+      <label for="tab1" class="tab-label">Grooming</label>
+      <div class="tab-content">
+        <div class="service-icon">
+          <img src="images/grooming.png" alt="Grooming Icon" />
+        </div>
+        <p>Professional grooming services including baths, haircuts, and nail trims.</p>
+      </div>
+
+      <!-- Tab 2: Training -->
+      <input type="radio" name="tabs" id="tab2" />
+      <label for="tab2" class="tab-label">Training</label>
+      <div class="tab-content">
+        <div class="service-icon">
+          <img src="images/training.png" alt="Training Icon" />
+        </div>
+        <p>Comprehensive training programs tailored to your pet’s needs and temperament.</p>
+      </div>
+
+      <!-- Tab 3: Boarding -->
+      <input type="radio" name="tabs" id="tab3" />
+      <label for="tab3" class="tab-label">Boarding</label>
+      <div class="tab-content">
+        <div class="service-icon">
+          <img src="images/boarding.png" alt="Boarding Icon" />
+        </div>
+        <p>Safe, clean, and comfortable boarding facilities for short or long stays.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="container">
+    <h2>Gallery</h2>
+    <div class="gallery-slider">
+      <div class="slide"><img src="images/pet-1.png" alt="Pet 1" /></div>
+      <div class="slide"><img src="images/pet-2.png" alt="Pet 2" /></div>
+      <div class="slide"><img src="images/pet-3.png" alt="Pet 3" /></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial-slide">
+        <p>"Posh Pet Care has been a lifesaver for my dog. Highly recommend!"</p>
+        <div class="stars">★★★★★</div>
+        <p>- Customer 1</p>
+      </div>
+      <div class="testimonial-slide">
+        <p>"Their grooming service is top-notch and my cat always comes back happy."</p>
+        <div class="stars">★★★★★</div>
+        <p>- Customer 2</p>
+      </div>
+      <div class="testimonial-slide">
+        <p>"Boarding facilities are excellent. I never worry when I'm away."</p>
+        <div class="stars">★★★★☆</div>
+        <p>- Customer 3</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US SECTION -->
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <!-- Replace the src below with your Google Form embed URL -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePhbaiqSRVOt4MV0lQ0_k0f4ucQ6sJzBMgnqb1eeDNkqavJQ/viewform?embedded=true" width="100%"
+          height="500" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+          Loading…
+        </iframe>
+      </div>
+      <div class="map">
+        <h3>Find Us Here</h3>
+        <!-- Replace the src below with your actual Google Maps embed URL -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54004434276!2d77.04417979751062!3d28.527573495216216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1616661562193!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Posh Pet Care | All Rights Reserved</p>
+    <div class="social-links">
+      <a href="#">Facebook</a> | <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- BASIC JS FOR SLIDERS (GALLERY & TESTIMONIALS) -->
+  <script>
+    // Gallery Slider
+    const gallerySlides = document.querySelectorAll(".gallery-slider .slide");
+    let galleryIndex = 0;
+    function showGallerySlide() {
+      gallerySlides.forEach((slide, i) => {
+        slide.style.display = i === galleryIndex ? "block" : "none";
+      });
+    }
+    showGallerySlide();
+    setInterval(() => {
+      galleryIndex = (galleryIndex + 1) % gallerySlides.length;
+      showGallerySlide();
+    }, 3000);
+
+    // Testimonial Slider
+    const testimonialSlides = document.querySelectorAll(".testimonial-slider .testimonial-slide");
+    let testimonialIndex = 0;
+    function showTestimonialSlide() {
+      testimonialSlides.forEach((slide, i) => {
+        slide.style.display = i === testimonialIndex ? "block" : "none";
+      });
+    }
+    showTestimonialSlide();
+    setInterval(() => {
+      testimonialIndex = (testimonialIndex + 1) % testimonialSlides.length;
+      showTestimonialSlide();
+    }, 4000);
+  </script>
+</body>
+</html>
